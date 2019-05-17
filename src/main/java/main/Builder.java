@@ -120,9 +120,6 @@ public class Builder {
 		String amountStartPeriod = "";
 		String amountEndPeriod = "";
 		
-//		if (amountStartPeriod.equals(amountEndPeriod)) { 
-//			return 0.0;
-//		}
 		for (Currency el : list) {
 			if (startDate.equals(el.getDate())) {
 				amountStartPeriod = el.getAmount();
